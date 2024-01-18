@@ -355,18 +355,9 @@ body::-moz-scrollbar-thumb:hover {
   }
 
   @media(min-width: 360px) and (orientation:portrait) {
-    .menu-wrap {
-      top: 84vh;
-      left: 42.5vw;
-    }
-
     .menu-icon,
     .menu-icon-small {
       top:11vh !important;
-    }
-
-    .menu-icon-small {
-      left:1vh !important;
     }
   }
 
@@ -394,7 +385,6 @@ body::-moz-scrollbar-thumb:hover {
 
   @media(min-width: 412px) and (orientation:portrait) {
     .menu-wrap {
-      top: 84vh;
       left: 43vw;
     }
     
@@ -449,17 +439,13 @@ body::-moz-scrollbar-thumb:hover {
   }
 
   @media(min-width: 640px) and (orientation:landscape) {
-    .menu-wrap {
-      top: 6vh;
-      left: 87vw;
-    }
     .menu-icon {
       left: -38.8vw;
       top: 6vh;
     }
     .menu-icon-small {
       left: -30vw;
-      top: -8vh;
+      top: -6vh;
   }
     .menu {
       left: 5vw;
@@ -469,7 +455,6 @@ body::-moz-scrollbar-thumb:hover {
 
   @media(min-width: 740px) and (orientation:landscape) {
     .menu-icon-small {
-      left: -30vw;
       top: -6vh;
     }
   }
@@ -489,7 +474,6 @@ body::-moz-scrollbar-thumb:hover {
 
   @media(min-width: 926px) and (orientation:landscape) {
     .menu-icon-small {
-      left: -32vw;
       top: -4.3vh;
     }
   }
@@ -525,10 +509,6 @@ body::-moz-scrollbar-thumb:hover {
   }
 
   @media(min-width: 820px) and (orientation:portrait) {
-    .menu-wrap {
-      left: 5vw;
-      top: 4vh;
-    }
     .menu-icon {
       left: -13.5vw;
       top: -29vh !important;
@@ -540,10 +520,6 @@ body::-moz-scrollbar-thumb:hover {
   }
 
   @media(min-width: 1180px) and (orientation:landscape) {
-    .menu-wrap {
-      left: 5vw;
-      top: 6vh;
-    }
     .menu-icon {
       left: -43.4vw;
       top: -19vh;
@@ -569,25 +545,6 @@ body::-moz-scrollbar-thumb:hover {
   }
   }
 
-  @media(min-width: 1366px) and (orientation:landscape) {
-    .menu-wrap {
-      left: 5vw !important;
-      top: 6vh;
-    }
-    .menu {
-      left: -0.1vw !important;
-      top: -20% !important;
-    }
-    .menu-icon {
-      left: -39.2vw !important;
-      top: -3.5vh !important;
-    }
-    .menu-icon-small {
-      left: -33.7vw !important;
-      top: -32.8vh !important;
-    }
-  }
-
 /*
   @media(min-width: 1280px) and (orientation:landscape) {
     .menu-icon {
@@ -608,6 +565,25 @@ body::-moz-scrollbar-thumb:hover {
     .menu-icon-small {
       left: -38.5vw !important;
       top: -52.5vh !important;
+    }
+  }
+
+  @media(min-width: 1366px) and (orientation:landscape) {
+    .menu-wrap {
+      left: 5vw !important;
+      top: 6vh;
+    }
+    .menu {
+      left: -0.1vw !important;
+      top: -20% !important;
+    }
+    .menu-icon {
+      left: -39.2vw !important;
+      top: -3.5vh !important;
+    }
+    .menu-icon-small {
+      left: -33.7vw !important;
+      top: -32.8vh !important;
     }
   }
 
@@ -657,7 +633,7 @@ body::-moz-scrollbar-thumb:hover {
 
   @media(min-width: 1600px) and (orientation:landscape) {
     .menu-icon {
-      left: -39.7vw !important;
+      left: -40vw !important;
       top: 4vh !important;
     }
     .menu-icon-small {
@@ -863,8 +839,6 @@ body::-moz-scrollbar-thumb:hover {
   (min-width: 321px) and (orientation:portrait) {
     .napovednik-bg {
       background-image: url(../images/art.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
       height: 100%;
       width: 100vw;
     }
@@ -878,12 +852,9 @@ body::-moz-scrollbar-thumb:hover {
   @media(min-width: 321px) and (orientation:portrait) {
     .napovednik-bg {
         background-image: url(../images/art.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100%;
-        width: 100vw;
       }
-  
+
+      .napovednik-bg,
       .napovednik-wht {
         height: 100%;
         width: 100vw;
@@ -894,12 +865,9 @@ body::-moz-scrollbar-thumb:hover {
   (min-width: 569px) and (orientation:landscape) {
     .napovednik-bg {
       background-image: url(../images/note2.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
-      height: 100%;
-      width: 100vw;
     }
 
+    .napovednik-bg,
     .napovednik-wht {
       height: 100%;
       width: 100vw;
@@ -909,12 +877,9 @@ body::-moz-scrollbar-thumb:hover {
     @media(min-width: 768px) and (orientation:portrait) {
     .napovednik-bg {
         background-image: url(../images/art.jpg);
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 100vh;
-        width: 100vw;
       }
-  
+
+      .napovednik-bg
       .napovednik-wht {
         height: 100vh;
         width: 100vw;
@@ -924,8 +889,6 @@ body::-moz-scrollbar-thumb:hover {
   @media(min-width: 1280px) and (orientation:landscape) {
     .napovednik-bg {
       background-image: url(../images/note2.jpg);
-      background-size: cover;
-      background-repeat: no-repeat;
       background-position: 50% 50% !important;
       background-color: rgba(83, 11, 192, 0.322);
       background-blend-mode: soft-light;
@@ -945,7 +908,6 @@ body::-moz-scrollbar-thumb:hover {
   font-size: 20px;
   color: #000;
   text-align: justify;
-  word-break: break-all;
 }
 
 .omeni-text0,
@@ -956,26 +918,16 @@ body::-moz-scrollbar-thumb:hover {
   font-size: 20px;
   color: #000;
   text-align: justify;
-  word-break: break-all;
 }
 
 .omeni-foto {
   position: absolute;
-  background-image: url(..//images/6.jpg);
+  background-image: url(..//images/21.jpg);
   border-radius: 50%;
-  background-size: 110%;
+  background-size: 100%;
   background-repeat: no-repeat;
   background-position: 100% 0 !important;
   }
-
-.back {
-/*<a href="https://www.flaticon.com/free-icons/left-arrow" title="left arrow icons">Left arrow icons created by Freepik - Flaticon</a>*/
-  position: fixed;
-  border-radius:50%;
-  z-index: 5;
-  background-image: url(../images/back-button.png);
-  background-color: rgb(0, 0, 0);
-}
 
   @media(min-width:320px) and (orientation:portrait) {
 
@@ -990,6 +942,48 @@ body::-moz-scrollbar-thumb:hover {
     }
   }
 
+  @media(min-width:360px) and (orientation:portrait) {
+
+    .omeni-main-text {
+      padding: 45% 10% 5% 10% !important;
+    }
+  }
+
+  @media(min-width:375px) and (orientation:portrait) {
+
+    .omeni-main-text {
+      padding: 50% 10% 5% 10% !important;
+    }
+  }
+
+  @media(min-width:384px) and (orientation:portrait) {
+
+    .omeni-main-text {
+      padding: 60% 10% 5% 10% !important;
+    }
+  }
+  
+  @media(min-width:390px) and (orientation:portrait) {
+
+    .omeni-main-text {
+      padding: 60% 10% 5% 10% !important;
+    }
+  }
+  
+  @media(min-width:412px) and (orientation:portrait) {
+
+    .omeni-main-text {
+      padding: 60% 10% 5% 10% !important;
+    }
+  }
+  
+  @media(min-width:428px) and (orientation:portrait) {
+
+    .omeni-main-text {
+      padding: 70% 10% 5% 10% !important;
+    }
+  }
+
   @media(max-width:1023px) and (orientation:landscape) {
 
     .omeni-text0,
@@ -1000,15 +994,6 @@ body::-moz-scrollbar-thumb:hover {
 
     .omeni-main-text {
       padding: 13% 5% 5% 5% !important;
-    }
-  }
-
-  @media(min-width:768px) and (orientation:portrait) {
-
-    .omeni-text0,
-    .omeni-text,
-    .omeni-text2 {
-      padding: 30% 7% 5% 7% !important;
     }
   }
 
@@ -1026,11 +1011,6 @@ body::-moz-scrollbar-thumb:hover {
     .omeni-foto {
       display: none !important;
     }
-
-    .back {
-      height: 50px;
-      width: 50px;
-    }
   }
 
   @media(max-width: 926px) and (orientation:landscape) {
@@ -1038,84 +1018,7 @@ body::-moz-scrollbar-thumb:hover {
     .omeni-foto {
       display: none !important;
     }
-
-    .back {
-      height: 50px;
-      width: 50px;
-      top: 2.3rem !important;
-      left: 2.3rem !important;
-    }
   }
-
-  @media(max-width: 320px) and (orientation:portrait) {
-    .back {
-      top: 30.5rem !important;
-      left: 15.4rem !important;
-    }
-    }
-
-  @media(min-width: 321px) and (orientation:portrait) {
-    .back {
-      top: 35.3rem;
-      left: 18rem;
-    }
-    }
-
-  @media(min-width: 360px) and (orientation:portrait) {
-    .back {
-      top: 35.3rem;
-      left: 18rem;
-    }
-    }
-
-  @media(min-width: 375px) and (orientation:portrait) {
-    .back {
-      top: 37.5rem;
-      left: 19rem;
-    }
-    }
-
-  @media(min-width: 384px) and (orientation:portrait) {
-    .back {
-      top: 48rem;
-      left: 19rem;
-    }
-    }
-
-  @media(min-width: 390px) and (orientation:portrait) {
-    .back {
-      top: 48.5rem;
-      left: 20rem;
-    }
-    }
-
-  @media(min-width: 412px) and (orientation:portrait) {
-    .back {
-      top: 50rem !important;
-      left: 22 rem !important;
-    }
-    }
-
-  @media(min-width: 412px) and (orientation:portrait) {
-    .back {
-      top: 51.2rem !important;
-      left: 21rem !important;
-    }
-    }
-
-  @media(min-width: 414px) and (orientation:portrait) {
-    .back {
-      top: 90vh !important;
-      left: 21rem !important;
-    }
-    }
-
-  @media(min-width: 414px) and (orientation:portrait) {
-    .back {
-      top: 86vh !important;
-      left: 21rem !important;
-    }
-    }
 
   @media(max-width:320px), (min-width:321px), (min-width:360px), (min-width: 390px) and (orientation:portrait) {
 
@@ -1124,9 +1027,29 @@ body::-moz-scrollbar-thumb:hover {
     }
   }
 
-  @media(max-width:320px), (min-width:321px), (min-width:360px), (min-width:375px), (min-width:390px), (min-width:412px), (min-width:414px), (min-width:428px)  and (orientation:portrait) {
+  @media(max-width:320px), (min-width:321px) and (orientation:portrait) {
   
     .naslov-omeni,
+    .naslov-repertoar,
+    .naslov-reference {
+      top: 1rem;
+      font-size: 25px;
+      left: 0;
+      right: 0;
+    }
+  }
+  
+  @media(min-width:360px) and (orientation:portrait) {
+  
+    .naslov-omeni,
+    .naslov-repertoar,
+    .naslov-reference {
+      top: 3rem !important;
+    }
+  }
+
+  @media(min-width:390px), (min-width:412px), (min-width:414px), (min-width:428px) and (orientation:portrait) {
+
     .naslov-repertoar,
     .naslov-reference {
       top: 1rem;
@@ -1143,12 +1066,36 @@ body::-moz-scrollbar-thumb:hover {
     }
   }
 
+  @media(min-width:375px) and (orientation:portrait) {
+  
+    .naslov-omeni {
+      padding-top: 5rem !important;
+      font-size: 25px;
+      left: 0;
+      right: 0;
+    }
+  }
+
+  @media(min-width:390px) and (orientation:portrait) {
+  
+    .naslov-omeni {
+      padding-top: 7rem !important;
+     }
+  }
+
+  @media(min-width:412px), (min-width:414px), (min-width:428px) and (orientation:portrait) {
+  
+    .naslov-omeni {
+      top: 6rem !important;
+    }
+  }
+
   @media(max-width: 568px), (min-width: 569px), (min-width: 640px), (min-width: 658px), (min-width: 667px), (min-width: 740px), (min-width: 844px), (min-width: 896px), (min-width: 914px), (min-width: 915px), (min-width: 926px) and (orientation:landscape) {
 
     .naslov-omeni,
     .naslov-repertoar,
     .naslov-reference {
-      top: 0;
+      top: 0 !important;
       font-size: 25px;
     }
 
@@ -1170,10 +1117,16 @@ body::-moz-scrollbar-thumb:hover {
       padding-top: 29%;
     }
 
-    .omeni-text0,
-    .omeni-text,
+    .omeni-text0 {
+      padding: 30% 7% 5% 7% !important;
+    }
+    
     .omeni-text2 {
-      padding: 18% 18% 7% 18% !important;
+      padding: 30% 7% 5% 7% !important;
+    }
+    
+     .omeni-text {
+      padding: 30% 5% 5% 5% !important;
     }
 
     .naslov-repertoar,
@@ -1187,13 +1140,6 @@ body::-moz-scrollbar-thumb:hover {
       width: 100px;
       left: 45%;
       top: 5%;
-    }
-
-    .back {
-      height: 60px;
-      width: 60px;
-      top: 3.5rem !important;
-      left: 1.8rem !important;
     }
   }
 
@@ -1230,40 +1176,39 @@ body::-moz-scrollbar-thumb:hover {
       left: 46%;
       top: 9%;
     }
-
-    .back {
-      height: 60px;
-      width: 60px;
-      top: 3rem !important;
-      left: 1.8rem !important;
-    }
   }
 
   @media(min-width: 820px) and (orientation:portrait) {
 
+    .omeni-foto {
+      left: 46%;
+      top: 20%;
+    }
+
     .omeni-text0 {
-      padding: 20% 15% 7% 15% !important;
+      padding: 40% 10% 7% 10% !important;
     }
 
-    .omeni-text,
     .omeni-text2 {
-      padding: 18% 15% 7% 15% !important;
+      padding: 35% 10% 7% 10% !important;
     }
-
-    .back {
-      top: 3.7rem !important;
-      left: 1.8rem !important;
+    
+    .omeni-text {
+      padding: 18% 15% 7% 15% !important;
     }
   }
 
   @media(min-width: 1024px) and (orientation:portrait) {
 
     .omeni-text0 {
-      padding: 20% 15% 7% 15% !important;
+      padding: 40% 15% 7% 15% !important;
     }
 
-    .omeni-text,
     .omeni-text2 {
+      padding: 35% 15% 7% 15% !important;
+    }
+
+    .omeni-text {
       padding: 18% 15% 7% 15% !important;
     }
 
@@ -1272,21 +1217,30 @@ body::-moz-scrollbar-thumb:hover {
       top: 5rem !important;
       font-size: 30px !important;
     }
-
-    .back {
-      top: 3.9rem !important;
+    
+    .omeni-foto {
+      height: 150px;
+      width: 150px;
+      left: 43%;
+      top: 13%;
     }
   }
 
   @media(min-width:1280px) {
 
     .omeni-text0 {
+      padding: 21% 19% 7% 22% !important;
+      font-size: 20px !important;
+    }
+    
+    .omeni-text2 {
       padding: 16% 18% 7% 18% !important;
+      font-size: 20px !important;
     }
 
-    .omeni-text,
-    .omeni-text2 {
-      padding: 10% 18% 7% 18% !important;
+    .omeni-text {
+      padding: 12% 18% 7% 18% !important;
+      font-size: 20px !important;
     }
 
     .omeni-foto {
@@ -1294,11 +1248,6 @@ body::-moz-scrollbar-thumb:hover {
       width: 150px;
       left: 43%;
       top: 3%;
-    }
-
-    .back {
-      top: 1.3rem !important;
-      left: 1.3rem !important;
     }
   }
 
@@ -1315,7 +1264,7 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .omeni-text2 {
-      padding: 20% 20% 10% 18% !important;
+      padding: 22% 20% 10% 18% !important;
     }
 
     .omeni-text {
@@ -1325,11 +1274,6 @@ body::-moz-scrollbar-thumb:hover {
     .omeni-foto {
       left: 43%;
       top: 8%;
-    }
-
-    .back {
-      top: 2.1rem !important;
-      left: 2.1rem !important;
     }
   }
 
@@ -1357,19 +1301,19 @@ body::-moz-scrollbar-thumb:hover {
 
     .naslov-repertoar,
     .naslov-reference {
-      top: 5rem !important;
+      top: 1rem !important;
     }
 
     .omeni-text0 {
-      padding: 20% 12% 3% 20% !important;
+      padding: 24% 12% 3% 20% !important;
     }
 
     .omeni-text2 {
-      padding: 12% 20% 10% 18% !important;
+      padding: 16% 20% 10% 18% !important;
     }
 
     .omeni-text {
-      padding: 12% 10% 3% 20% !important;
+      padding: 8% 10% 3% 20% !important;
     }
   }
 
@@ -1380,25 +1324,16 @@ body::-moz-scrollbar-thumb:hover {
       top: 2rem !important;
     }
 
-    .omeni-text {
-      padding: 20% 10% 3% 20% !important;
-    }
-
-    .back {
-      top: 2.4rem !important;
-      left: 2.4rem !important;
-    }
-
     .omeni-text0 {
       padding: 20% 12% 3% 20% !important;
     }
 
     .omeni-text2 {
-      padding: 12% 20% 10% 18% !important;
+      padding: 7% 20% 10% 18% !important;
     }
 
     .omeni-text {
-      padding: 12% 10% 3% 20% !important;
+      padding: 10% 10% 3% 20% !important;
     }
   }
 
@@ -1407,10 +1342,6 @@ body::-moz-scrollbar-thumb:hover {
     .naslov-repertoar,
     .naslov-reference {
       top: 5rem !important;
-    }
-
-    .omeni-text {
-      padding: 20% 10% 3% 20% !important;
     }
 
     .omeni-text0 {
@@ -1430,16 +1361,11 @@ body::-moz-scrollbar-thumb:hover {
 
     .naslov-repertoar,
     .naslov-reference {
-      top: 2rem !important;
+      top: 1rem !important;
     }
 
     .omeni-text {
-      padding: 20% 10% 3% 20% !important;
-    }
-
-      .back {
-      top: 2.3rem !important;
-      left: 2.3rem !important;
+      padding: 7% 10% 3% 20% !important;
     }
 
     .omeni-text0 {
@@ -1447,11 +1373,7 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .omeni-text2 {
-      padding: 10% 20% 10% 18% !important;
-    }
-
-    .omeni-text {
-      padding: 10% 10% 3% 20% !important;
+      padding: 14% 20% 10% 18% !important;
     }
   }
 
@@ -1459,12 +1381,7 @@ body::-moz-scrollbar-thumb:hover {
 
     .naslov-repertoar,
     .naslov-reference {
-      top: 10rem !important;
-    }
-
-    .back {
-      top: 2.3rem !important;
-      left: 2.3rem !important;
+      top: 3rem !important;
     }
 
     .omeni-text0 {
@@ -1472,11 +1389,11 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .omeni-text2 {
-      padding: 20% 20% 10% 18% !important;
+      padding: 16% 20% 10% 18% !important;
     }
 
     .omeni-text {
-      padding: 20% 10% 3% 20% !important;
+      padding: 11% 9% 3% 20% !important;
     }
   }
 
@@ -1502,7 +1419,7 @@ body::-moz-scrollbar-thumb:hover {
 
 .vecICON, .vecICONmobile {
   position: absolute;
-  background-color: hsla(263.119, 100%, 57%, 0.458);
+  background-color: hsla(234, 100%, 57%, 0.307);
   height: 25px;
   width: 25px;
   background-size: 100%;
@@ -1515,7 +1432,7 @@ body::-moz-scrollbar-thumb:hover {
   transition: all 800ms;
 
   &:hover {
-  background-color: hsla(263, 100%, 35%, 0.572);
+  background-color: hsla(234, 92%, 39%, 0.447);
 }
 }
 
@@ -1598,10 +1515,6 @@ body::-moz-scrollbar-thumb:hover {
     .slika1,
     .slika1over {
       height: 100vh;
-    }
-
-    .textFOTO {
-      display: none;
     }
 
   .vecFOTO, .vecVIDEO, .vecVIDEOmobile {
@@ -1689,12 +1602,12 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .slika3 {
-      height: 205vh !important;
+      height: 282vh !important;
       padding-top: 50px;
     }
 
     .slika3over {
-      height: 202vh;
+      height: 279vh;
     }
   }
 
@@ -1757,12 +1670,12 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .slika3 {
-      height: 205vh !important;
+      height: 282vh !important;
       padding-top: 50px;
     }
 
     .slika3over {
-      height: 202vh;
+      height: 279vh;
     }
   }
 
@@ -1805,10 +1718,14 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .slika1a,
+    .slika1aover {
+      height: 230vh !important;
+      padding-top: 50px;
+      }
+      
     .slika2,
-    .slika1aover,
     .slika2over {
-      height: 225vh !important;
+      height: 240vh !important;
       padding-top: 50px;
       }
 
@@ -1821,12 +1738,12 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .slika3 {
-      height: 230vh !important;
+      height: 340vh !important;
       padding-top: 50px;
     }
 
     .slika3over {
-      height: 223vh !important;
+      height: 333vh !important;
       padding-top: 50px;
     }
   }
@@ -1870,10 +1787,14 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .slika1a,
+    .slika1aover {
+      height: 230vh !important;
+      padding-top: 50px;
+      }
+      
     .slika2,
-    .slika1aover,
     .slika2over {
-      height: 225vh !important;
+      height: 240vh !important;
       padding-top: 50px;
       }
 
@@ -1952,12 +1873,12 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .slika3 {
-      height: 225vh !important;
+      height: 300vh !important;
       padding-top: 50px;
     }
 
     .slika3over {
-      height: 219vh !important;
+      height: 299vh !important;
       padding-top: 50px;
     }
   }
@@ -1966,8 +1887,8 @@ body::-moz-scrollbar-thumb:hover {
     
     .vec {
       font-size: 18px;
-      margin-top: 22%;
-      left: 30%;
+      margin-top: 15%;
+      left: 33%;
     }
 
     .vecICONmobile, .vecARROW {
@@ -2007,11 +1928,11 @@ body::-moz-scrollbar-thumb:hover {
       }
 
     .slika3 {
-      height: 170vh !important;
+      height: 240vh !important;
     }
 
     .slika3over {
-      height: 168vh !important;
+      height: 238vh !important;
     }
   }
 
@@ -2021,7 +1942,7 @@ body::-moz-scrollbar-thumb:hover {
       font-size: 18px;
       margin-top: 3% !important;
       left: 43% !important;
-      top: 83%;
+      top: 75%;
       position: absolute;
     }
 
@@ -2053,11 +1974,11 @@ body::-moz-scrollbar-thumb:hover {
       }
 
     .slika3 {
-      height: 210vh !important;
+      height: 282vh !important;
     }
 
     .slika3over {
-      height: 205vh !important;
+      height: 278vh !important;
     }
   }
 
@@ -2087,11 +2008,26 @@ body::-moz-scrollbar-thumb:hover {
       }
 
     .slika3 {
-      height: 150vh !important;
+      height: 226vh !important;
     }
 
     .slika3over {
-      height: 148vh !important;
+      height: 224vh !important;
+    }
+  }
+
+  @media(min-width:658px) and (orientation:landscape) {
+
+    .vec {
+      margin-top: 1% !important;
+    }
+
+    .slika3 {
+      height: 330vh !important;
+    }
+
+    .slika3over {
+      height: 324vh !important;
     }
   }
 
@@ -2127,44 +2063,16 @@ body::-moz-scrollbar-thumb:hover {
     .slika2,
     .slika1aover,
     .slika2over {
-      height: 214vh;
+      height: 190vh !important;
       padding-top: 50px;
       }
 
     .slika3 {
-      height: 205vh;
+      height: 285vh !important;
     }
 
     .slika3over {
-      height: 201vh;
-    }
-  }
-
-  @media(min-width: 390px) and (orientation:portrait) {
-
-    .vecFOTO {
-      top: 32% !important;
-      left: 45% !important;
-    }
-
-    .vecVIDEOmobile {
-      top: 57% !important;
-      left: 20% !important;
-    }
-
-    .slika1a,
-    .slika2,
-    .slika1aover,
-    .slika2over {
-      height: 140vh;
-      }
-
-    .slika3 {
-      height: 140vh;
-    }
-
-    .slika3over {
-      height: 136vh;
+      height: 280vh !important;
     }
   }
 
@@ -2187,9 +2095,40 @@ body::-moz-scrollbar-thumb:hover {
       height: 130vh !important;
       }
 
-    .slika3,
+    .slika3 {
+      height: 178vh !important;
+    }
+    
     .slika3over {
-      height: 116vh !important;
+      height: 176vh !important;
+    }
+  }
+  
+   @media(min-width: 390px) and (orientation:portrait) {
+
+    .vecFOTO {
+      top: 32% !important;
+      left: 45% !important;
+    }
+
+    .vecVIDEOmobile {
+      top: 57% !important;
+      left: 20% !important;
+    }
+
+    .slika1a,
+    .slika2,
+    .slika1aover,
+    .slika2over {
+      height: 140vh;
+      }
+
+    .slika3 {
+      height: 180vh !important;
+    }
+
+    .slika3over {
+      height: 178.8vh !important;
     }
   }
 
@@ -2203,11 +2142,11 @@ body::-moz-scrollbar-thumb:hover {
       }
 
     .slika3 {
-      height: 210vh !important;
+      height: 280vh !important;
     }
 
     .slika3over {
-      height: 193vh;
+      height: 273vh !important;
     }
   }
 
@@ -2242,11 +2181,22 @@ body::-moz-scrollbar-thumb:hover {
       }
 
     .slika3 {
-      height: 210vh !important;
+      height: 255vh !important;
     }
 
     .slika3over {
-      height: 193vh;
+      height: 250vh !important;
+    }
+  }
+
+  @media(min-width:854px) and (orientation:landscape) {
+
+    .slika3 {
+      height: 260vh !important;
+    }
+
+    .slika3over {
+      height: 256vh !important;
     }
   }
 
@@ -2281,15 +2231,20 @@ body::-moz-scrollbar-thumb:hover {
       }
 
     .slika3 {
-      height: 160vh !important;
+      height: 230vh !important;
     }
 
     .slika3over {
-      height: 155vh !important;
+      height: 225vh !important;
     }
   }
 
   @media(min-width: 412px) and (orientation:portrait) {
+
+    .vec {
+      margin-top: 20%;
+      left: 35.5%;
+    }
 
     .vecFOTO, .vecVIDEOmobile {
       height: 140px;
@@ -2310,15 +2265,18 @@ body::-moz-scrollbar-thumb:hover {
     .slika2,
     .slika1aover,
     .slika2over {
-      height: 115vh;
+      height: 115vh !important;
       }
 
-    .slika3,
+    .slika3 {
+      height: 152vh !important;
+    }
+    
     .slika3over {
-      height: 111vh !important;
-
+      height: 150vh !important;
     }
   }
+
 
   @media(min-width:914px) and (orientation:landscape) {
 
@@ -2367,13 +2325,37 @@ body::-moz-scrollbar-thumb:hover {
       height: 115vh !important;
       }
 
-    .slika3,
+    .slika3 {
+      height: 180vh !important;
+    }
+
     .slika3over {
-      height: 135vh !important;
+      height: 178.8vh !important;
+    }
+  }
+  
+    @media(min-width: 428px) and (orientation:portrait) {
+ 
+      .vec {
+      margin-top: 30%;
+      left: 36%;
+    }
+
+    .slika3{
+      height: 147vh !important;
+    }
+    
+    .slika3over {
+      height: 145vh !important;
     }
   }
 
   @media(min-width: 896px) and (orientation:landscape) {
+
+    .vec {
+      top: 85% !important;
+      left: 43.5% !important;
+    }
 
     .vecFOTO {
       top: 35% !important;
@@ -2398,11 +2380,11 @@ body::-moz-scrollbar-thumb:hover {
       }
 
     .slika3 {
-      height: 160vh !important;
+      height: 228vh !important;
     }
 
     .slika3over {
-      height: 154vh !important;
+      height: 223vh !important;
     }
   }
 
@@ -2439,11 +2421,18 @@ body::-moz-scrollbar-thumb:hover {
     }
   }
 
+  @media(min-width: 926px) and (orientation:landscape) {
+    .vec {
+      top: 85% !important;
+      left: 44% !important;
+    }
+  }
+
   @media(min-width:736px) and (orientation:landscape) {
 
-  .vec {
-    margin-top: 7% !important;
-  }
+    .vec {
+      margin-top: 7% !important;
+    }
 
     .slika1,
     .slika1over {
@@ -2467,7 +2456,7 @@ body::-moz-scrollbar-thumb:hover {
   }
 
   @media(min-width: 768px) and (orientation: portrait) {
-    .vecVIDEOmobile, .vecFOTO {
+    .vecVIDEO, .vecFOTO {
       height: 120px !important;
       width: 120px !important;
     }
@@ -2481,15 +2470,24 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .vecFOTO {
-      top: 39.7% !important;
+      top: 35.7% !important;
       left: 57% !important;
       filter: contrast(1);
     }
 
-    .vecICONmobile {
-      top: 48% !important;
-      left: 28% !important;
+    .vecVIDEOmobile {
+      top: 50% !important;
+      left: 30% !important;
       filter: contrast(1);
+      height: 120px !important;
+      width: 120px !important;
+    }
+
+    .overlay {
+      background: rgba(208, 232, 255, 0.525);
+      z-index: 2 !important;
+      height: 100vh;
+      width: 100vw;
     }
 
     .naslov-omeni {
@@ -2523,12 +2521,12 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .slika3 {
-      height: 100vh !important;
+      height: 120vh !important;
       padding-top: 50px;
     }
 
     .slika3over {
-      height: 98.5vh !important;
+      height: 118.8vh !important;
       padding-top: 50px;
     }
   }
@@ -2555,7 +2553,7 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .vecVIDEO {
-      top: 41% !important;
+      top: 44.5% !important;
       left: 69% !important;
       height: 120px;
       width: 120px;
@@ -2595,12 +2593,12 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .slika3 {
-      height: 100vh !important;
+      height: 137vh !important;
       padding-top: 50px;
     }
 
     .slika3over {
-      height: 98.1vh !important;
+      height: 135.8vh !important;
       padding-top: 50px;
     }
   }
@@ -2618,13 +2616,18 @@ body::-moz-scrollbar-thumb:hover {
       left: 57% !important;
     }
 
-    .vecICONmobile {
-      top: 48% !important;
-      left: 28% !important;
+    .vecVIDEOmobile {
+      top: 45% !important;
+      left: 32% !important;
+    }
+
+    .slika3 {
+      height: 100vh !important;
+      padding-top: 50px;
     }
 
     .slika3over {
-      height: 96vh !important;
+      height: 98.8vh !important;
     }
   }
 
@@ -2657,11 +2660,11 @@ body::-moz-scrollbar-thumb:hover {
       }
 
     .slika3 {
-      height: 103vh !important;
+      height: 121vh !important;
     }
 
     .slika3over {
-      height: 101.2vh !important;
+      height: 119.8vh !important;
     }
   }
 
@@ -2673,12 +2676,12 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .vecFOTO {
-      top: 44% !important;
+      top: 38% !important;
       left: 59% !important;
     }
 
     .vecVIDEOmobile {
-      top: 50% !important;
+      top: 45% !important;
       left: 32% !important;
     }
 
@@ -2687,7 +2690,7 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .slika3over {
-      height: 96vh !important;
+      height: 98.8vh !important;
     }
   }
 
@@ -2732,7 +2735,7 @@ body::-moz-scrollbar-thumb:hover {
     
     .vecVIDEO {
       top: 45% !important;
-      left: 69% !important;
+      left: 61% !important;
     }
   
     .vecTEXT {
@@ -2775,7 +2778,7 @@ body::-moz-scrollbar-thumb:hover {
   
     .slika1over {
       height: 100vh;
-     width: 100vw !important;
+      width: 100vw !important;
       left: 0;
       right: 0;
       top: 0;
@@ -2803,7 +2806,7 @@ body::-moz-scrollbar-thumb:hover {
     .slika3 {
       background-position: 50% 20%;
       filter: contrast(1.1);
-      height: 105vh !important;
+      height: 129vh !important;
     }
   
     .slika3over {
@@ -2811,10 +2814,11 @@ body::-moz-scrollbar-thumb:hover {
       clip-path: polygon(85% 0, 100% 44.9%, 100% 59.8%, 85% 100%, 0% 100%, 15% 60%, 15% 45%, 0% 0%);
       right: 8%;
       width: 75% !important;
+      height: 129vh !important;
     }
     }
 
-  @media(min-width:1368px) {
+  @media(min-width:1366px) {
 
     .vec {
       font-size: 20px;
@@ -2888,7 +2892,7 @@ body::-moz-scrollbar-thumb:hover {
     .slika3 {
       background-position: 50% 20%;
       filter: contrast(1.1);
-      height: 105vh !important;
+      height: 108vh !important;
     }
   
     .slika3over {
@@ -2896,7 +2900,7 @@ body::-moz-scrollbar-thumb:hover {
       clip-path: polygon(85% 0, 100% 44.9%, 100% 59.8%, 85% 100%, 0% 100%, 15% 60%, 15% 45%, 0% 0%);
       right: 8%;
       width: 75% !important;
-      height: 105vh !important;
+      height: 108vh !important;
     }
   
     .slika1aover,
@@ -2912,6 +2916,11 @@ body::-moz-scrollbar-thumb:hover {
       font-size: 20px;
       margin-top: 7% !important;
       left: 25% !important;
+    }
+    
+    .vecVIDEO {
+      top: 45% !important;
+      left: 60% !important;
     }
   
     .vecTEXT {
@@ -2979,6 +2988,7 @@ body::-moz-scrollbar-thumb:hover {
     .slika3 {
       background-position: 50% 20%;
       filter: contrast(1.1);
+      height: 115vh !important;
     }
   
     .slika3over {
@@ -2986,6 +2996,7 @@ body::-moz-scrollbar-thumb:hover {
       clip-path: polygon(85% 0, 100% 44.9%, 100% 59.8%, 85% 100%, 0% 100%, 15% 60%, 15% 45%, 0% 0%);
       right: 8%;
       width: 75% !important;
+      height: 115vh !important;
     }
   
     .slika1aover,
@@ -3070,6 +3081,7 @@ body::-moz-scrollbar-thumb:hover {
     .slika3 {
       background-position: 50% 20%;
       filter: contrast(1.1);
+      height: 132vh !important;
     }
   
     .slika3over {
@@ -3077,6 +3089,7 @@ body::-moz-scrollbar-thumb:hover {
       clip-path: polygon(85% 0, 100% 44.9%, 100% 59.8%, 85% 100%, 0% 100%, 15% 60%, 15% 45%, 0% 0%);
       right: 8%;
       width: 75% !important;
+      height: 132vh !important;
     }
   
     .slika1aover,
@@ -3093,6 +3106,11 @@ body::-moz-scrollbar-thumb:hover {
       font-size: 20px;
       margin-top: 7% !important;
       left: 24% !important;
+    }
+
+    .vecVIDEO {
+      top: 45% !important;
+      left: 61% !important;
     }
 
     .vecTEXT {
@@ -3186,6 +3204,11 @@ body::-moz-scrollbar-thumb:hover {
         left: 25% !important;
       }
     
+      .vecVIDEO {
+        top: 45% !important;
+        left: 61% !important;
+      }
+    
       .vecTEXT {
         position: relative;
         right: -25%;
@@ -3253,6 +3276,7 @@ body::-moz-scrollbar-thumb:hover {
       .slika3 {
         background-position: 50% 20%;
         filter: contrast(1.1);
+        height: 125vh !important;
       }
     
       .slika3over {
@@ -3260,6 +3284,7 @@ body::-moz-scrollbar-thumb:hover {
         clip-path: polygon(85% 0, 100% 44.9%, 100% 59.8%, 85% 100%, 0% 100%, 15% 60%, 15% 45%, 0% 0%);
         right: 8%;
         width: 75% !important;
+        height: 125vh !important;
       }
     
       .slika1aover,
@@ -3390,36 +3415,50 @@ body::-moz-scrollbar-thumb:hover {
   background-position: 50% 18%;
   height: 100vh;
   width: 60vw;
-  right: 40.6%;
+  right: 40.2% !important;
   -webkit-clip-path: polygon(0 0, 85.3% 0, 77% 100%, 0 100%);
   clip-path: polygon(0 0, 85.3% 0, 77% 100%, 0 100%);
 }
 
 .desno {
   position: relative;
-  background-image: url(../images/neimenovano-min.gif);
+  background-image: url(../images/videoImage.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 10% 20%;
   height: 100vh;
-  width: 99.5vw;
-  right: -0.5%;
+  width: 102vw !important;
+  right: 2% !important;
   -webkit-clip-path: polygon(50% 0, 100% 0, 100% 100%, 45% 100%);
   clip-path: polygon(50% 0, 100% 0, 100% 100%, 45% 100%);
 }
 
+.mobileMedia {
+  position: relative;
+  background-image: url(..//images/reflektor.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
 @media (min-width: 1280px) {
 
-  .levo, .desno {
-    filter:grayscale(1) contrast(1.1);
+  .levo,
+  .desno {
+    filter: grayscale(0.5);
     -webkit-transition: all 800ms;
     -moz-transition: all 800ms;
     -o-transition: all 800ms;
     transition: all 800ms;
   }
 
-  .levo:hover, .desno:hover {
-    filter: grayscale(0.1) contrast(1.2);
+  .levo:hover,
+  .desno:hover {
+    filter: grayscale(0.1) contrast(1.2) !important;
+  }
+  
+  .desno {
+    left: 10%; 
   }
 
   .gel{
@@ -3442,6 +3481,10 @@ body::-moz-scrollbar-thumb:hover {
   
   .center-gel2{
     animation-delay: 2.5s;
+  }
+  
+  .mobileMedia {
+    visibility: none;
   }
 }
 
@@ -3502,45 +3545,34 @@ body::-moz-scrollbar-thumb:hover {
   }
 }
 
-@media(max-width: 320px), (min-width: 321px), (min-width: 360px), (min-width: 375px), (min-width: 390px), (min-width: 412px), (min-width: 414px), (min-width: 428px) and (orientation:portrait) {
+@media (max-width: 767px) and (orientation:portrait) {
 
-  .levo {
-    background-image: url(..//images/reflektor.jpg);
-    position: absolute;
-    background-position: 70% 50%;
-    height: 100vh;
-    width: 100vw;
-    left: 0;
-    -webkit-clip-path: none;
-    clip-path: none;
-    filter:contrast(1.1);
-  }
-  
+  .levo,
   .desno {
-    position: relative;
-    background-image: none;
-    }
+    visibility: none;
+    display: none;
   }
 
-  @media(min-width: 568px), (min-width: 569px), (min-width: 640px), (min-width: 658px), (min-width: 667px), (min-width: 740px), (min-width: 844px), (min-width: 896px), (min-width: 914px), (min-width: 915px) and (orientation:landscape) {
-    
-  .levo {
-    background-image: url(../images/red.jpg) !important;
-    position: absolute;
-    background-size: cover;
-    background-position: 50% 0;
+  .mobileMedia {
     height: 100vh;
     width: 100vw;
-    left: 0;
-    -webkit-clip-path: none;
-    clip-path: none;
-    filter:contrast(1.1);
-    }
+  }
+  }
+
+  @media (max-width: 1023px) and (orientation:landscape) {
     
-  .desno {
-    position: relative;
-    background-image: none;
+    .levo,
+    .desno {
+      visibility: none;
+      display: none;
     }
+
+    .mobileMedia {
+      background-image: url(../images/red.jpg) !important;
+      background-position: 50% 0;
+      height: 100vh;
+      width: 100vw;
+      }
   }
 
 .container {
@@ -3548,16 +3580,14 @@ body::-moz-scrollbar-thumb:hover {
 }
 
   @media(min-width: 768px) and (orientation: portrait){
-    .levo {
-      background-image: url(..//images/12.jpg) !important;
-      z-index: 1;
-      height: 100vh;
-      width: 100vw;
+    .levo,
+    .desno {
+      visibility: none;
+      display: none;
     }
 
-    .overlay {
-      background: rgba(208, 232, 255, 0.525);
-      z-index: 2 !important;
+    .mobileMedia {
+      background-image: url(..//images/12a.jpg) !important;
       height: 100vh;
       width: 100vw;
     }
@@ -3565,9 +3595,7 @@ body::-moz-scrollbar-thumb:hover {
 
   @media(min-width:1024px) and (orientation: landscape){
     .levo {
-      background-image: url(../images/12.jpg) !important;
       background-position: 50% 18%;
-      height: 100vh !important;
       width: 60vw;
       right: 40.6%;
       -webkit-clip-path: polygon(0 0, 90.5% 0, 76% 100%, 0 100%);
@@ -3575,30 +3603,18 @@ body::-moz-scrollbar-thumb:hover {
     }
 
     .desno {
-      position: relative;
-      background-image: url(../images/neimenovano-min.gif);
-      background-size: cover;
-      background-repeat: no-repeat;
-      background-position: 50% 50%;
       height: 100vh !important;
       width: 99.5vw;
       right: -0.5%;
-      -webkit-clip-path: polygon(54% 0, 100% 0, 100% 100%, 45% 100%);
-      clip-path: polygon(54% 0, 100% 0, 100% 100%, 45% 100%);
+      -webkit-clip-path: polygon(42% 0, 100% 0, 100% 100%, 33% 100%);
+      clip-path: polygon(42% 0, 100% 0, 100% 100%, 33% 100%);
+    }
+
+    .mobileMedia {
+      visibility: none;
+      display: none;
     }
   }
-
-
-  @media (min-width: 1280px) and (orientation:landscape) {
-    
-    .levo, .desno { 
-    filter:grayscale(0.6) contrast(1.1);
-    -webkit-transition: all 800ms;
-    -moz-transition: all 800ms;
-    -o-transition: all 800ms;
-    transition: all 800ms;
-  }
-}
 
 .galerija-bg {
   background: rgb(242,241,255);
