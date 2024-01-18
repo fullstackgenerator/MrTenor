@@ -43,8 +43,8 @@
           <div>
           <a href="#"><svg class="menu-icon-small internationalEN"></svg></a>
           <a href="#"><svg class="menu-icon-small internationalHR"></svg></a>
-          <a href="https://www.facebook.com/jostsoteski"><svg class="menu-icon-small fb"></svg></a>
-          <a href="https://www.instagram.com/maticzakonjsek/"><svg class="menu-icon-small ig"></svg></a>
+          <a href="#"><svg class="menu-icon-small fb"></svg></a>
+          <a href="#"><svg class="menu-icon-small ig"></svg></a>
         </div>    
     </div>
   </div>
@@ -95,15 +95,11 @@
     </div>
 
   <div id="galerija">
-    
+    <!--desktop-->
       <div class="levo">
         <div class="overlay">
           <a href="https://epicdev.si/matic/galerija/">
             <div class="vecFOTO vecICON gel center-gel"></div>
-          </a>
-
-          <a href="https://epicdev.si/matic/posnetki/">
-            <div class="vecVIDEOmobile vecICONmobile gel center-gel"></div>
           </a>
         </div>
 		  </div>
@@ -115,6 +111,23 @@
         </div>
       </div>
 
+<!--mobile&tablet-->
+      <div class="mobileMedia">
+        <div class="overlay">
+          <a href="https://epicdev.si/matic/galerija/">
+            <div class="vecFOTO vecICON"></div>
+          </a>
+
+          <a href="https://epicdev.si/matic/posnetki/">
+            <div class="vecVIDEOmobile vecICONmobile"></div>
+          </a>
+        </div>
+		  </div>
+      </div>
+
+  </div>
+
+  
 <div class="kontakt-bg" id="kontakt">
 <section>
     
@@ -182,4 +195,3 @@ menuItems.forEach(function(item) {
 </script>
 
 <?php get_footer();?>
-
